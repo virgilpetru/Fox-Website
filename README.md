@@ -1,5 +1,5 @@
 # Fox-Website
-Website Created Using public API, Node/Express.js and Axios
+Website Created Using public API, EJS, Node/Express.js and Axios
 
 To make the website work:
 - have Visual Studio, node.js installed
