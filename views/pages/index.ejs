@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What does the fox say?</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- include nav bar -->
+        <%- include ("../partials/header.ejs") %>
+        <h1 id="title">Welcome To The Fox Page</h1>
+        <br>
+        <h2> Red foxes look similar to some of your favorite pets. 
+            They're canines, which are relatives of dogs, wolves, and coyotes. 
+            But in some ways, they're actually more like cats. 
+            They have long whiskers, retractable claws, and excellent night vision. 
+            Also like cats, red foxes hunt alone rather than in wolf-like packs.
+
+        </h2>
+
+        <!-- Fox Api Content -->
+        <div>
+            <img src=" <%= image %>" alt="fox image" id="img1">
+        </div>
+        <br>
+        <form action=" <%= link %> ">
+            <!-- bug, manuta pt link -->
+            <input type="submit" value="Click for More" />
+        </form>
+
+        <!-- include footer -->
+        <%- include("../partials/footer.ejs") %>
+    </div>
+    
+</body>
+</html>
